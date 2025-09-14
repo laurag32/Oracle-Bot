@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Arbitrum Vault 1",
+    "chain": "arbitrum",
+    "address": "0x1234567890abcdef1234567890abcdef12345678",
+    "function": "harvest",
+    "bounty": 0.5
+  },
+  {
+    "name": "Arbitrum Vault 2",
+    "chain": "arbitrum",
+    "address": "0xabcdefabcdefabcdefabcdefabcdefabcdefabcdef",
+    "function": "harvest",
+    "bounty": 0.5
+  },
+  {
+    "name": "Optimism Vault 1",
+    "chain": "optimism",
+    "address": "0xabcdefabcdefabcdefabcdefabcdefabcdefabcdef",
+    "function": "harvest",
+    "bounty": 0.5
+  },
+  {
+    "name": "Optimism Vault 2",
+    "chain": "optimism",
+    "address": "0x1234567890abcdef1234567890abcdef12345678",
+    "function": "harvest",
+    "bounty": 0.5
+  }
+]
