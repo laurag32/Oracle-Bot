@@ -1,0 +1,14 @@
+import os
+import csv
+
+os.makedirs("logs", exist_ok=True)
+
+LOG_FILE = "logs/profit_log.csv"
+
+if not os.path.isfile(LOG_FILE):
+    with open(LOG_FILE, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["timestamp", "chain", "tx_hash", "profit_usd", "gas_spent_usd"])
+    print("profit_log.csv initialized")
+else:
+    print("profit_log.csv already exists")
